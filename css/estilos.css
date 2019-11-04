@@ -1,0 +1,76 @@
+table{
+			text-align: center;
+			width: 100%;
+		}
+		th{
+			background-color: steelblue;
+			color: white;
+		  
+		  }
+		 tr:nth-child(odd){
+		 	background-color: #ddf;
+		 }
+		 td{
+		 	border: 1px solid blue;
+		 }
+         form{
+            border: 2px solid steelblue;
+            border-radius: 20px;
+            margin: 1em auto;
+            padding: 1em;
+            text-align: right;
+            width: 50%;
+
+         }
+         input[type="email"],input[type="text"],input[type="date"]{
+         border-radius: 5px;
+         margin: 0.5em;
+         padding: 0.3em;
+         width: 80%
+         }
+         input[type="submit"]{
+            background-color: steelblue;
+            border-radius: 10px;
+            color: white;
+            cursor: pointer;
+            font-size: 1em;
+            padding: 0.8em;
+            transition: 2s;
+
+         }
+         input[type="submit"]:hover{
+         background-color: #006;
+         transition: 2s;
+         }
+         
+         form div{
+            text-align: center;
+         }
+         #celdaEliminar,#celdaModificar{
+            text-align: center;
+            width: 10%;
+         }
+         td form{
+            border: 0;
+            padding: 0;
+            margin: 0 auto;
+         }
+         td form input[type="image"]{
+            max-width: 100%;
+         }
+         nav{
+            background-color: steelblue;
+            text-align:center;
+            width:100%;
+         }
+        nav li{
+            border-right: 1px solid white;
+            display: inline-block;
+            list-style: none;
+            padding: 0.5em;
+            width: 10%;
+        }
+        nav a {
+            color:white;
+            text-decoration:none;
+         }
